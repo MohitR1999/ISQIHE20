@@ -16,3 +16,18 @@
         display: inline-block;
         border-radius: 50%;
 }
+
+.fitContentHeight {
+    height: 120px !important;
+}
+
+.extraMargin {
+    margin-left: 10px;
+}
+
+.customCard {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.103), 0 5px 5px rgba(0, 0, 0, 0.116);
+    margin: 0 5px;
+    border-radius: 20px;
+    padding: 1rem 0;
+}
