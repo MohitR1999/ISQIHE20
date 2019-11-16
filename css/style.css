@@ -253,8 +253,9 @@ ol {
 	right: 0;
 	height: 100%;
 	width: 100%;
-	background: -webkit-gradient(linear, left top, right top, from(#3cb8ff), to(#2a34d0));
-	background: linear-gradient(to right, #3cb8ff, #2a34d0);
+	background: -webkit-gradient(linear, left top, right top, from(#444391), to(#464394));
+/*	background: linear-gradient(to right, #3cb8ff, #2a34d0);*/
+	background: linear-gradient(to right, #444391, #464394);
 	content: "";
 	opacity: 0.75;
 	z-index: -1;
