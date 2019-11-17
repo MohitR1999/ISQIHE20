@@ -1,0 +1,67 @@
+[class^="custom flaticon-"]:before, [class*="custom flaticon-"]:before, [class^="custom flaticon-"]:after, [class*="custom flaticon-"]:after {
+    margin: 0;
+    font-size: 80px;
+    background: -webkit-linear-gradient(#dc61a4, #3c2a98);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.icon_holder span {
+        width: 160px;
+        height: 160px;
+        line-height: 160px;
+        text-align: center;
+        background: rgba(241, 241, 241, 0.411);
+        display: inline-block;
+        border-radius: 50%;
+}
+
+.customBg {
+    background: #f3f3f3;
+}
+
+.fitContentHeight {
+    height: 120px !important;
+}
+
+.noLeftPadding {
+    padding-left: 3rem !important;
+}
+
+.conferenceBroadTopic {
+    padding: 2rem 1rem;
+    height: 150px !important;
+    width: 100%;
+    margin: 0;
+}
+
+.conferenceBroadTopic h2 {
+    font-size: 150%;
+}
+
+.fitContentHeight h2 {
+    font-size: 150%;
+}
+
+.extraMargin {
+    margin-left: 10px;
+}
+
+.customCard {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.103), 0 5px 5px rgba(0, 0, 0, 0.116);
+    margin: 0 5px;
+    border-radius: 20px;
+    padding: 2rem 2rem;
+}
+
+.conferenceCard {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.103), 0 5px 5px rgba(0, 0, 0, 0.116);
+    margin: 0 5px;
+    border-radius: 20px;
+    padding: 1rem 2rem;
+}
+
+.customCard h2 {
+    font-size: 140%;
+}
