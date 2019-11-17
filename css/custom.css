@@ -1,6 +1,6 @@
 [class^="custom flaticon-"]:before, [class*="custom flaticon-"]:before, [class^="custom flaticon-"]:after, [class*="custom flaticon-"]:after {
     margin: 0;
-    font-size: 80px;
+    font-size: 70px;
     background: -webkit-linear-gradient(#dc61a4, #3c2a98);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -8,9 +8,9 @@
 }
 
 .icon_holder span {
-        width: 160px;
-        height: 160px;
-        line-height: 160px;
+        width: 140px;
+        height: 140px;
+        line-height: 140px;
         text-align: center;
         background: rgba(241, 241, 241, 0.411);
         display: inline-block;
