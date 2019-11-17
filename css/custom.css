@@ -1,6 +1,6 @@
 [class^="custom flaticon-"]:before, [class*="custom flaticon-"]:before, [class^="custom flaticon-"]:after, [class*="custom flaticon-"]:after {
     margin: 0;
-    font-size: 60px;
+    font-size: 80px;
     background: -webkit-linear-gradient(#dc61a4, #3c2a98);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -8,17 +8,25 @@
 }
 
 .icon_holder span {
-        width: 120px;
-        height: 120px;
-        line-height: 120px;
+        width: 160px;
+        height: 160px;
+        line-height: 160px;
         text-align: center;
         background: rgba(241, 241, 241, 0.411);
         display: inline-block;
         border-radius: 50%;
 }
 
+.customBg {
+    background: #f3f3f3;
+}
+
 .fitContentHeight {
     height: 120px !important;
+}
+
+.noLeftPadding {
+    padding-left: 3rem !important;
 }
 
 .conferenceBroadTopic {
