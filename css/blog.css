@@ -2,3 +2,52 @@
   opacity: 0;
 }
 
+/*------------------------------------*\
+	Timeline
+\*------------------------------------*/
+
+@media only screen and (min-width: 992px) {
+  .timeline {
+      margin: 0 100px;
+  }
+  .timeline .timeline-item .row {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  }
+  .timeline .timeline-item:nth-child(2n) .row {
+      flex-direction: row-reverse;
+  }
+  .timeline::before {
+      content: "";
+      position: absolute;
+      left: calc(50% - 3px);
+      top: calc(100% - 720px);
+      width: 7px;
+      height: calc(100% - 350px);
+      border-radius: 4px;
+      background: #868F9B;
+      margin-top: -60px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .timeline-item [class*='col'] {
+      text-align: center;
+  }
+}
+
+.timeline-item i {
+  font-size: 50px;
+  color: #FFF;
+  background: #4056A1;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100px;
+  vertical-align: middle;
+  padding: 0px;
+  /* text-shadow: 1px 1px 1px #868F9B; */
+}
