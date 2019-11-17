@@ -50,9 +50,21 @@
 
 .customCard {
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.103), 0 5px 5px rgba(0, 0, 0, 0.116);
-    margin: 0 5px;
+    margin: 0 auto;
     border-radius: 20px;
-    padding: 2rem 2rem;
+    padding: 0.5rem 0.5rem;
+}
+
+@media (min-width: 992px) {
+    .customCard {
+        width: 85%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .customCard {
+        width: 75%;
+    }
 }
 
 .conferenceCard {
