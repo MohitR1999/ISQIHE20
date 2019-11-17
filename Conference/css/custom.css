@@ -52,6 +52,7 @@
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.103), 0 5px 5px rgba(0, 0, 0, 0.116);
     margin: 0 auto;
     border-radius: 20px;
+    height: fit-content;
     padding: 0.5rem 0.5rem;
 }
 
@@ -76,4 +77,17 @@
 
 .customCard h2 {
     font-size: 140%;
+}
+
+.modal_custom ul {
+    padding-left: 10px;
+}
+
+.bigPara {
+    font-weight: 400; 
+    font-size:18px
+}
+
+.green_button {
+    background: #4aca59 !important;
 }
