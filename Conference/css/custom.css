@@ -77,3 +77,12 @@
 .customCard h2 {
     font-size: 140%;
 }
+
+.modal_custom ul {
+    padding-left: 10px;
+}
+
+.bigPara {
+    font-weight: 400; 
+    font-size:18px
+}
