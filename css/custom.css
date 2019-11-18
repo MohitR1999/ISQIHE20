@@ -48,6 +48,10 @@
     margin-left: 10px;
 }
 
+.noBottomMargin {
+    margin-bottom: 0;
+}
+
 .customCard {
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.103), 0 5px 5px rgba(0, 0, 0, 0.116);
     margin: 0 auto;
