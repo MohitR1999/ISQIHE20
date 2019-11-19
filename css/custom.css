@@ -81,3 +81,7 @@
 .customCard h2 {
     font-size: 140%;
 }
+
+.newColor {
+    background: #000000 !important;
+}
