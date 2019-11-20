@@ -1592,7 +1592,8 @@ ol {
 /*  Milestone Counter  */
 
 .milestone-counter {
-	margin-bottom: 108px;
+	margin-bottom: 41px;
+	margin-top: 34px;
 }
 
 .milestone-counter .section-title {

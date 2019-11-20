@@ -58,10 +58,41 @@
     margin-left: 10px;
 }
 
+/************** Padding, Margin removers ************************/
+
 .noBottomMargin {
     margin-bottom: 0;
 }
 
+.noTopMargin {
+    margin-top: 0;
+}
+
+.noLeftMargin {
+    margin-left: 0;
+}
+
+.noRightMargin {
+    margin-right: 0;
+}
+
+.noBottomPadding {
+    padding-bottom: 0;
+}
+
+.noTopPadding {
+    padding-top: 0;
+}
+
+.noLeftPadding {
+    padding-left: 0;
+}
+
+.noRightPadding {
+    padding-right: 0;
+}
+
+/**************************************************************************************************/
 
 @media (min-width: 992px) {
     .customCard {
@@ -88,4 +119,14 @@
 
 .newColor {
     background: #000000 !important;
+}
+
+/************************** FOR ISQIHE.HTML ***************************************/
+
+.normalPara {
+    font-size: large;
+}
+
+.leftPadding {
+    padding-left: 1.5rem;
 }
