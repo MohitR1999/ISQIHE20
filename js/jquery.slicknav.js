@@ -112,7 +112,7 @@
 
         // create menu bar
         $this.mobileNav.attr('class', prefix + '_nav');
-        $this.mobileNav.attr('style', 'align-self:center;'); //for centering the menu :/
+        $this.mobileNav.attr('style', 'text-align:center;'); //for centering the menu :/
 
         menuBar = $('<div class="' + prefix + '_menu"></div>');
 		if (settings.brand !== '') {
