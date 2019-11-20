@@ -262,7 +262,7 @@ ol {
 }
 
 .header {
-	padding: 30px 0 17px 0;
+	padding: 15px 0 10px 0;
 	width: 100%;
 }
 
@@ -1940,7 +1940,7 @@ ol {
 		padding: 20px;
 	}
 	.slicknav_btn {
-		margin: 5px 0 25px;
+		margin: 5px 0 10px;
 		padding: 0.738em 1em;
 	}
 	.slicknav_nav a:hover {
