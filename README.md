@@ -1,1 +1,2 @@
-"# ISQIHE20"  initgit add README.mdgit commit -m "first commit"git remote add origin https://github.com/umang350/ISQIHE20.gitgit push -u origin master
+# International Summit on Quality Indices in Higher Education
+The Official website of ISQIHE'20
