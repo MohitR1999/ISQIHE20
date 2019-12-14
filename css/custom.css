@@ -130,3 +130,27 @@
 .leftPadding {
     padding-left: 1.5rem;
 }
+
+/************************ FOR LOGIN.HTML *********************************************/
+
+.halfWidth {
+    width: 48%;
+}
+
+@media (max-width: 767px) {
+    .halfWidth {
+        width: 47%;
+    }
+}
+
+@media (max-width: 462px) {
+    .halfWidth {
+        width: 46%;
+    }
+}
+
+@media (max-width: 354px) {
+    .halfWidth {
+        width: 45%;
+    }
+}

@@ -1,0 +1,50 @@
+<% include ../partials/conf_header %>
+
+    <!-- Modal -->
+       <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+         <div class="modal-dialog" role="document">
+           <div class="modal-content">
+             <div class="modal-header">
+               <h5 class="modal-title" id="exampleModalLabel">Reset Password</h5>
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                 <span aria-hidden="true">&times;</span>
+               </button>
+             </div>
+             <div class="modal-body">
+                    <form action="/forgotPassword" method="POST">
+
+                        <div class="form-group">
+                          <label for="username">User Name<span class="required"> *</span></label>
+                          <input type="text" class="form-control" id="username" name="username" required>
+                        </div>
+                    
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    
+                      </form>
+             </div>
+             <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+             </div>
+           </div>
+         </div>
+       </div>
+       <!-- End of Modal -->
+    
+    <div class="container container-xs">
+        <form class="forms" action="/conference/login" method="POST">
+            <h2 class="form-heading">Login to ISQIHE-DTU</h2>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Username</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" name="Email" placeholder="Username" required>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" name="Password" placeholder="Password" required>
+            </div>
+            <a href="#" data-toggle="modal" data-target="#exampleModal">Forgot Password ?</a><br><br>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    
+<% include ../partials/conf_footer %>

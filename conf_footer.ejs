@@ -1,0 +1,40 @@
+<a href="#" class="btn btn-outline-dark" style="position:fixed;bottom:20px;right:20px"><i
+  class="fas fa-arrow-up"></i></button>
+<!-- Preloader -->
+<div id="preloader">
+  <div class="preloader">
+    <h1 style="font-weight: bold;color:#2e3192;font-size: 3rem">DTU</h1>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<!-- /Preloader -->
+<script>
+   <% if (success && success.length > 0) { %>
+
+    new Noty({
+      theme: 'relax',
+      text: '<%= success %>',
+      type: 'success',
+      layout: 'topRight',
+      timeout: 2000
+    }).show();
+
+  <% } %>
+  <% if (error && error.length > 0) { %>
+
+    new Noty({
+      theme: 'relax',
+      text: '<%= error %>',
+      type: 'error',
+      layout: 'topRight',
+      timeout: 2000
+    }).show();
+
+  <% } %>
+</script>
+</body>
+
+</html>
